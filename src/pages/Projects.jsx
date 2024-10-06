@@ -17,6 +17,24 @@ function Projects() {
                             </Card.Text>
                         </Card.Body>
                     </Card>
+                    <Card>
+                        <Card.Img variant="top" src={FitnessFirstLogo} />
+                        <Card.Body>
+                            <Card.Title>Project Title</Card.Title>
+                            <Card.Text>
+                                Brief description of the project goes here. Highlight key features and tech stack used.
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                    <Card>
+                        <Card.Img variant="top" src={FitnessFirstLogo} />
+                        <Card.Body>
+                            <Card.Title>Project Title</Card.Title>
+                            <Card.Text>
+                                Brief description of the project goes here. Highlight key features and tech stack used.
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
                 </Col>
             </Row>
         </Container>
