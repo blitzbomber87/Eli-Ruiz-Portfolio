@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import FitnessFirstLogo from '../assets/images/FitnessFirstLogo.jpg';
 import BrooksideHotel from '../assets/images/My-Brookside-Hotel.jpg';
+import MovieNightApp from '../assets/images/MovieNight.jpg';
 
 function Projects() {
     return (
@@ -10,7 +11,7 @@ function Projects() {
             <Row className="mt-4">
                 <Col md={4}>
                     <Card>
-                        <Card.Img variant="top" src={FitnessFirstLogo} />
+                        <Card.Img variant="top" src={MovieNightApp} />
                         <Card.Body>
                             <Card.Title>Project Title</Card.Title>
                             <Card.Text>
