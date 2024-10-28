@@ -5,7 +5,7 @@ import profilePic from '../assets/images/ProfilePicEliRuiz.jpg';
 
 const Home = () => {
     return (
-        <Container className="text-center">
+        <Container className="text-center mt-5 mb-5 pb-5">
             <h1>Eli Ruiz</h1>
             <img 
             src={profilePic}
