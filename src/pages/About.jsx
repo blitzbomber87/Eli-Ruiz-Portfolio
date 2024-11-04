@@ -1,9 +1,9 @@
-import React from 'react';
+/* import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 
 function About() {
-    return (
-        <Container className="mt-5 mb-5 pb-5 pt-5">
+    return ( */
+        {/* <Container className="mt-5 mb-5 pb-5 pt-5">
             <Row className="justify-content-md-center">
                 <Col md={8}>
                     <Card>
@@ -17,7 +17,7 @@ function About() {
                 </Col>
             </Row>
         </Container>
-    );
-}
+    ); 
+} */}
 
-export default About;
+/* export default About; */

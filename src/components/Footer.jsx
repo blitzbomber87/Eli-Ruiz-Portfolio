@@ -1,9 +1,9 @@
 /* Footer.jsx */
 
-import React from 'react';
-import { Container } from 'react-bootstrap';
+/* import React from 'react';
+import { Container } from 'react-bootstrap'; */
 
-function Footer() {
+{/* function Footer() {
     return (
         <footer className="bg-dark text-white p-4 text-center sticky-bottom">
             <Container fluid>
@@ -13,4 +13,4 @@ function Footer() {
     );
 }
 
-export default Footer;
+export default Footer; */}

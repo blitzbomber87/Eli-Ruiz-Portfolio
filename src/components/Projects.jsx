@@ -1,12 +1,16 @@
-/* import React from 'react';
+// src/components/Projects.js //
+
+import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import FitnessFirstLogo from '../assets/images/FitnessFirstLogo.jpg';
 import BrooksideHotel from '../assets/images/BrooksideHotel.jpg';
-import MovieNightApp from '../assets/images/MovieNight.jpg'; */
+import MovieNightApp from '../assets/images/MovieNight.jpg'; 
 
-{/* function Projects() {
-    return ( 
-        <Container className="mt-5">
+const Projects = () => (
+  <section id="projects" className="section">
+    <h2>Projects</h2>
+    <p>Here are some of my projects...</p>
+    <Container className="mt-5">
             <Row className="mt-4 pb-5 pt-3">
                 <Col md={4}>
                     <Card>
@@ -52,7 +56,7 @@ import MovieNightApp from '../assets/images/MovieNight.jpg'; */
                 
             </Row>
         </Container>
-    );
-} */}
+  </section>
+);
 
-/* export default Projects; */
+export default Projects;
