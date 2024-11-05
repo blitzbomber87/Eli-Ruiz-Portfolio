@@ -4,7 +4,7 @@ import React from 'react';
 import profilePic from '../assets/images/ProfilePicEliRuiz.jpg';
 
 const Home = () => (
-  <section id="home" className="section text-center mt-5 mb-5 pb-5">
+  <section id="home" className="section text-center pt-5 pb-5">
     <img 
             src={profilePic}
             width="250"

@@ -1,13 +1,14 @@
 // Navbar.jsx
 
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-scroll';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
-// import Navbar from 'react-bootstrap/Navbar';
+import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 
-function Navbar() {
+function NavbarComponent() {
     const [isSticky, setIsSticky] = useState(false);
   
     useEffect(() => {
@@ -29,12 +30,14 @@ function Navbar() {
     return (
           <Navbar expand="lg" className={`bg-body-tertiary navbar ${isSticky ? 'sticky' : ''}`}>
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="#home">ER</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
+            <Nav.Link href="#about">About Me</Nav.Link>
+            <Nav.Link href="#projects">Projects</Nav.Link>
+            <Nav.Link href="#contact">Contact/Resume</Nav.Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
@@ -53,4 +56,4 @@ function Navbar() {
       );
     }
 
-export default Navbar;
+export default NavbarComponent;

@@ -8,14 +8,15 @@ import MovieNightApp from '../assets/images/MovieNight.jpg';
 
 const Projects = () => (
   <section id="projects" className="section">
+    
+    <Container className="pt-5">
     <h2>Projects</h2>
     <p>Here are some of my projects...</p>
-    <Container className="mt-5">
-            <Row className="mt-4 pb-5 pt-3">
-                <Col md={4}>
+            <Row className="flex-column align-items-center mt-4 pb-5 pt-3">
+                <Col md={8} className="mb-4">
                     <Card>
                     <a href="https://mymovienightapp.netlify.app/" target="_blank" rel="noopener noreferrer">
-                        <Card.Img variant="top" src={MovieNightApp} width="300" height="270" />
+                        <Card.Img variant="top" src={MovieNightApp} className="project-image" />
                         </a>
                         <Card.Body>
                             <Card.Title>Movie Night App</Card.Title>
@@ -27,10 +28,11 @@ const Projects = () => (
                         </Card.Body>
                     </Card>
                     </Col>
-                    <Col md={4}>
+            
+                    <Col md={8} className="mb-4">
                     <Card>
                     <a href="https://my-brookside-hotel.onrender.com" target="_blank" rel="noopener noreferrer">
-                        <Card.Img variant="top" src={BrooksideHotel} width="300" height="270" />
+                        <Card.Img variant="top" src={BrooksideHotel} className="project-image" />
                         </a>
                         <Card.Body>
                             <Card.Title>My Brookside Hotel</Card.Title>
@@ -40,10 +42,11 @@ const Projects = () => (
                         </Card.Body>
                     </Card>
                     </Col>
-                    <Col md={4}>
+                    
+                    <Col md={8}>
                     <Card>
                     <a href="https://fitnessfirstapp.netlify.app/" target="_blank" rel="noopener noreferrer">
-                        <Card.Img variant="top" src={FitnessFirstLogo} width="300" height="270" />
+                        <Card.Img variant="top" src={FitnessFirstLogo} className="project-image" />
                         </a>
                         <Card.Body>
                             <Card.Title>FitnessFirst App</Card.Title>
