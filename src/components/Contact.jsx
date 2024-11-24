@@ -9,7 +9,7 @@ const Contact = () => (
   <section id="contact" className="contact bg-black text-white py-5">
     <div className="container text-center">
       <h2 className="mb-4">Contact Me</h2>
-      <div className="d-flex justify-content-center align-items-center gap-4">
+      <div className="d-flex justify-content-center align-items-center gap-4 flex-wrap">
         <a href="mailto:example@example.com">
           <img
             className="icon"
