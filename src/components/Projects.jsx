@@ -46,7 +46,7 @@ const Projects = () => (
       </p>
       <div className="row">
         {projects.map((project) => (
-          <div key={project.id} className="col-md-4 mb-4">
+          <div key={project.id} className="col-md-4 col-sm-6 mb-4">
             <div className="card h-100 shadow-sm">
             <a href={project.link} target="_blank" rel="noopener noreferrer">
               <img
@@ -59,15 +59,17 @@ const Projects = () => (
                 <h5 className="card-title">{project.title}</h5>
                 <p className="card-text">{project.description}</p>
               </div>
-            </div>
+            <div className="card-footer bg-transparent">
             <a
                   href={project.source}
-                  className="btn btn-primary mt-3"
+                  className="btn btn-primary w-100 mb-3"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   Source
         </a>
+        </div>
+        </div>
           </div>
         ))}
         

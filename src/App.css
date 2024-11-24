@@ -115,6 +115,24 @@ p {
   color: #555;
 }
 
+/* Adjust spacing for mobile screens */
+.card-footer {
+  padding: 10px;
+}
+
+.btn {
+  margin-bottom: 15px; /* Additional margin for mobile spacing */
+}
+
+@media (max-width: 576px) {
+  .card {
+    margin-bottom: 20px; /* Extra space between cards */
+  }
+  .btn {
+    margin-bottom: 20px; /* Ensure more spacing on small screens */
+  }
+}
+
 
 .contact {
   background-color: black;
