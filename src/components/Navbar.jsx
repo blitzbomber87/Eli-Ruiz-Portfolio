@@ -37,8 +37,10 @@ function NavbarComponent() {
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#about">About Me</Nav.Link>
             <Nav.Link href="#projects">Projects</Nav.Link>
-            <Nav.Link href="#contact">Contact/Resume</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+            <Nav.Link href="#contact">Contact</Nav.Link>
+            <a href="https://docs.google.com/document/d/1MndZD6jkSnirJF-tAkJ_Y3lnvQrJGo7d1LVJLiJw1NY/edit?usp=sharing" target="_blank" rel="noopener"> <h6>Resume</h6> 
+            </a>
+            {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action
@@ -48,7 +50,7 @@ function NavbarComponent() {
               <NavDropdown.Item href="#action/3.4">
                 Separated link
               </NavDropdown.Item>
-            </NavDropdown>
+            </NavDropdown> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -40,17 +40,98 @@
   /* ... any other styles you want for the sticky navbar */
 }
 
+/* Home.css */
+
+#home {
+  background-color: #f8f9fa; /* Light Bootstrap background color */
+}
+
+#home img {
+  object-fit: cover;
+  width: 250px;
+  height: 300px;
+}
+
+#home h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#home p {
+  font-size: 1rem;
+  color: #555;
+  max-width: 600px;
+}
+
+
 .section {
   min-height: 100vh;
   /* padding: 6rem 2rem; */
   scroll-snap-align: start;
 }
-.project-image {
-  width: 100%;
-  height: auto;
-  max-width: 400px; /* Set a max-width if you want to limit the image size */
-  object-fit: cover; /* Ensures images cover their container proportionally */
+
+/* AboutMe */
+
+section#about {
+  background-color: #f8f9fa; /* Light Bootstrap color */
 }
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333; /* Dark text color for readability */
+}
+
+/* project.css */
+
+.project-image {
+  object-fit: cover;
+  height: 200px;
+}
+
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+
+.contact {
+  background-color: black;
+}
+
+.contact .icon {
+  width: 64px;
+  height: 64px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.contact .icon:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+}
+
+
 
 #home, #about, #projects, #contact {
   background-color: black;

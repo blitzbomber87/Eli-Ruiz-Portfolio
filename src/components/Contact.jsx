@@ -1,23 +1,41 @@
-// src/components/Contact.js // 
+// Contact.jsx 
 
-import React from 'react';
-import { Container, Form, Button } from 'react-bootstrap';
+import React from "react";
+import emailIcon from "../assets/images/email-icon.png";
+import linkedinIcon from "../assets/images/linkedin-icon.png";
+import githubIcon from "../assets/images/github-icon.png";
 
 const Contact = () => (
-  <section id="contact" className="section">
-    <Container className="text-center mb-5 pt-10rem pb-5">
-    <h2>Contact</h2>
-    <p>Get in touch with me at...</p>
-            <h4>Phone: 951.999.1940</h4>
-            <h4>Email: elias.efly000@gmail.com</h4>
-            <a href="https://www.linkedin.com/in/elias-ruiz-51b71075/" target="_blank" rel="noopener"> <h4>Linkedin</h4>
-            </a>
-            <a href="https://github.com/blitzbomber87" target="_blank" rel="noopener"> <h4>Github</h4>
-            </a> 
-            <a href="https://docs.google.com/document/d/1MndZD6jkSnirJF-tAkJ_Y3lnvQrJGo7d1LVJLiJw1NY/edit?usp=sharing" target="_blank" rel="noopener"> <h4>Resume</h4> 
-            </a>
-        </Container>
-    
+  <section id="contact" className="contact bg-black text-white py-5">
+    <div className="container text-center">
+      <h2 className="mb-4">Contact Me</h2>
+      <div className="d-flex justify-content-center align-items-center gap-4">
+        <a href="mailto:example@example.com">
+          <img
+            className="icon"
+            src={emailIcon}
+            alt="Email icon"
+            title="Email"
+          />
+        </a>
+        <a href="https://github.com/yourgithub" target="_blank" rel="noreferrer">
+          <img
+            className="icon"
+            src={githubIcon}
+            alt="GitHub icon"
+            title="GitHub"
+          />
+        </a>
+        <a href="https://linkedin.com/in/yourlinkedin" target="_blank" rel="noreferrer">
+          <img
+            className="icon"
+            src={linkedinIcon}
+            alt="LinkedIn icon"
+            title="LinkedIn"
+          />
+        </a>
+      </div>
+    </div>
   </section>
 );
 
