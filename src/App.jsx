@@ -15,7 +15,7 @@ function App() {
       <div className="App">
         <Navbar /> {/* Add Navbar here so it appears on all pages */}
         <Home />
-        <About />
+        {/* <About /> */}
         <Projects />
         <Contact />
       </div>

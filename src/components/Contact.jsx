@@ -18,7 +18,7 @@ const Contact = () => (
             title="Email"
           />
         </a>
-        <a href="https://github.com/yourgithub" target="_blank" rel="noreferrer">
+        <a href="https://github.com/blitzbomber87" target="_blank" rel="noreferrer">
           <img
             className="icon"
             src={githubIcon}
@@ -26,7 +26,7 @@ const Contact = () => (
             title="GitHub"
           />
         </a>
-        <a href="https://linkedin.com/in/yourlinkedin" target="_blank" rel="noreferrer">
+        <a href="https://www.linkedin.com/in/elias-ruiz-51b71075/" target="_blank" rel="noreferrer">
           <img
             className="icon"
             src={linkedinIcon}

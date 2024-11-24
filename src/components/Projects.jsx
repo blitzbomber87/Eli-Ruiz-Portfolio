@@ -11,6 +11,8 @@ const projects = [
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     image: MovieNightApp,
     alt: 'Movie Night App',
+    link: 'https://mymovienightapp.netlify.app',
+    source: 'https://github.com/blitzbomber87/Movie-Night-App'
   },
   {
     id: 2,
@@ -19,6 +21,8 @@ const projects = [
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     image: FitnessFirstLogo,
     alt: 'Fitness First Logo',
+    link: 'https://fitnessfirstapp.netlify.app',
+    source: 'https://github.com/blitzbomber87/FitnessFirst'
   },
   {
     id: 3,
@@ -27,13 +31,15 @@ const projects = [
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     image: BrooksideHotel,
     alt: 'Brookside Hotel',
+    link: 'https://my-brookside-hotel.onrender.com',
+    source: 'https://github.com/blitzbomber87/My-Brookside-Hotel'
   },
 ];
 
 const Projects = () => (
   <section id="projects" className="py-5 bg-black text-white">
     <div className="container">
-      <h2 className="text-center mb-4">Projects</h2>
+      <h2 className="text-center mb-4">My work so far...</h2>
       <p className="text-center mb-5">
         Explore some of the projects I've worked on, showcasing skills in
         development, design, and creativity.
@@ -42,18 +48,29 @@ const Projects = () => (
         {projects.map((project) => (
           <div key={project.id} className="col-md-4 mb-4">
             <div className="card h-100 shadow-sm">
+            <a href={project.link} target="_blank" rel="noopener noreferrer">
               <img
                 src={project.image}
                 className="card-img-top project-image"
                 alt={project.alt}
               />
+              </a>
               <div className="card-body">
                 <h5 className="card-title">{project.title}</h5>
                 <p className="card-text">{project.description}</p>
               </div>
             </div>
+            <a
+                  href={project.source}
+                  className="btn btn-primary mt-3"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Source
+        </a>
           </div>
         ))}
+        
       </div>
     </div>
   </section>
