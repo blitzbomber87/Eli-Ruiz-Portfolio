@@ -28,7 +28,7 @@ const projects = [
     id: 3,
     title: 'Brookside Hotel',
     description:
-      'Brookside Hotel is a full-stack web application that provides a modern, user-friendly interface for travelers to seamlessly manage their hotel bookings. It enables hotel guests to... <br /> Browse available rooms Register and log in Book and reserve their stay online. This app follows MVC architecture and utilizes Node.js, Express.js, PostgreSQL, Sequelize and Nodemailer',
+      'Brookside Hotel is a full-stack web application that provides a modern, user-friendly interface for travelers to seamlessly manage their hotel bookings. It enables hotel guests to... <br /> Browse available rooms Register and log in Book and reserve their stay online. This app follows MVC architecture and utilizes Node.js, Express.js, PostgreSQL, Sequelize, Nodemailer and server-side rendering.',
     image: BrooksideHotel,
     alt: 'Brookside Hotel',
     link: 'https://my-brookside-hotel.onrender.com',
