@@ -8,7 +8,7 @@ const projects = [
     id: 1,
     title: 'Movie Night App',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Movie Night Database is a responsive web application designed to help users discover and manage movies for their movie nights. It features movie search, trending recommendations, detailed information modals, embedded trailers, and a persistent favorites list stored in local storage.It utilizes HTML, Bootstrap, jQuery and various APIs',
     image: MovieNightApp,
     alt: 'Movie Night App',
     link: 'https://mymovienightapp.netlify.app',
@@ -18,7 +18,7 @@ const projects = [
     id: 2,
     title: 'Fitness First App',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Fitness First is a full-stack web application developed using the MERN stack method. It allows users to log workouts and goals to monitor their progress toward healthier lifestyle. Features include... User authentication (sign up / log in)Dashboard to view workouts and goalsModular components for logging workouts and setting fitness goalsResponsive frontend design using React. It utilizes the following technologies: React, Vite, JSX, Node.js, Express and MongoDB.',
     image: FitnessFirstLogo,
     alt: 'Fitness First Logo',
     link: 'https://fitnessfirstapp.netlify.app',
