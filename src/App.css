@@ -59,7 +59,7 @@
 
 #home p {
   font-size: 1rem;
-  color: #837e7e;
+  color: #f8f9fa;
   max-width: 600px;
 }
 
@@ -84,7 +84,7 @@ h2 {
 p {
   font-size: 1rem;
   line-height: 1.6;
-  color: #837e7e; /* Dark text color for readability */
+  color: #f8f9fa; /* Dark text color for readability */
 }
 
 /* project.css */
