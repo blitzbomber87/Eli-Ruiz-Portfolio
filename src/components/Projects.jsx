@@ -28,7 +28,7 @@ const projects = [
     id: 3,
     title: 'Brookside Hotel',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Brookside Hotel is a full-stack web application that enables hotel guests to... <br /> Browse available rooms Register and log in Book and reserve their stay online',
     image: BrooksideHotel,
     alt: 'Brookside Hotel',
     link: 'https://my-brookside-hotel.onrender.com',
