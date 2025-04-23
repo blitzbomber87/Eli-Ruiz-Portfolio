@@ -18,7 +18,7 @@ const projects = [
     id: 2,
     title: 'Fitness First App',
     description:
-      'Fitness First is a full-stack web application developed using the MERN stack method. It allows users to log workouts and goals to monitor their progress toward healthier lifestyle. Features include... User authentication (sign up / log in)Dashboard to view workouts and goalsModular components for logging workouts and setting fitness goalsResponsive frontend design using React. It utilizes the following technologies: React, Vite, JSX, Node.js, Express and MongoDB.',
+      'Fitness First is a full-stack web application developed using the MERN stack method. It allows users to log workouts and goals to monitor their progress toward a healthier lifestyle. Features include... User authentication (sign up / log in),Dashboard to view workouts and goals. As well as modular components for logging workouts and setting fitness goals. Also a responsive frontend design using React. It utilizes the following technologies: React, Vite, JSX, Node.js, Express and MongoDB.',
     image: FitnessFirstLogo,
     alt: 'Fitness First Logo',
     link: 'https://fitnessfirstapp.netlify.app',
